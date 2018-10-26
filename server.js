@@ -2,7 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const app = express()
-const apiKey = '';
+
+const dotenv = require('dotenv');
+dotenv.load();
+
+const apiKey = process.env.WEATHER_API_KEY;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
