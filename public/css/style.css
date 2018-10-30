@@ -2,5 +2,15 @@ body {
     width: 800px;
     margin: 0 auto;
     padding-top: 25%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
+
+    background: url("/images/bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #mainLabel {
+    font-size: 20pt;
   }
